@@ -1,3 +1,8 @@
+html{
+
+  scroll-behavior: smooth;
+  
+}
 body{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -74,7 +79,7 @@ footer{
 }
 /* Title image */
 .title-image{
-  width: 70%;
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
@@ -83,9 +88,9 @@ footer{
 .title-image:hover{
  
 transition:2s;
-transform: scale(0.7);
-top: -150px;
-right: 10px;
+transform: scale(0.8);
+top: -120px;
+right: 100px;
 }
 
 
